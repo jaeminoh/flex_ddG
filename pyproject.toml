@@ -1,0 +1,19 @@
+[project]
+name = "flex-ddg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bio>=1.8.1",
+    "fire>=0.7.1",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = ["flex_ddg/*"]
